@@ -10,7 +10,7 @@
 - [API Endpoints](#api-endpoints)
 - [Activity Logging](#activity-logging)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
@@ -37,4 +37,42 @@ Before you begin, make sure you have the following prerequisites:
    ```bash
    git clone https://github.com/your-username/UserDemo.git
    
-   ##Configuration
+## Configuration
+Before running the application, configure the database connection settings. Modify the following properties in the application.properties file located in the src/main/resources folder:
+
+# Database connection settings
+spring.datasource.url=jdbc:mysql://localhost:3306/databasename
+spring.datasource.username=root
+spring.datasource.password=YOUR_PASSWORD
+Replace YOUR_PASSWORD with your MySQL root password.
+
+## Usage
+Build the Project
+Build the project using Maven:
+
+./mvnw clean install
+The application will be accessible at http://localhost:8080. Ensure that your MySQL server is running.
+
+## API Endpoints
+GET /app/{name}: Retrieve a user by their name.
+GET /app/all: Retrieve all users.
+GET /app/sorted: Retrieve all users sorted by name.
+POST /app/add: Add a new user. Send a JSON request body with user details.
+GET /app/activity: Retrieve the activity log (Note: Log content is a placeholder).
+Activity Logging
+The application logs activities to an "activity.log" file located in the project root directory. Each log entry includes a timestamp and a description of the activity.
+
+## Contributing
+Contributions are welcome! To contribute to this project:
+
+Fork the project.
+Create a new branch: git checkout -b feature/your-feature-name.
+Commit your changes: git commit -m "Your commit message here".
+Push your changes: git push origin feature/your-feature-name.
+Create a pull request to the main branch of the original repository.
+
+
+
+
+
+
