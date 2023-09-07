@@ -1,0 +1,18 @@
+Error occurred while adding a user: Table 'users_db.users' doesn't exist
+Error occurred while adding a user: Table 'users_db.users' doesn't exist
+Error occurred while retrieving user: Table 'users_db.users' doesn't exist
+Error occurred while retrieving users: Table 'users_db.users' doesn't exist
+Error occurred while adding a user: Table 'users_db.users' doesn't exist
+Error occurred while retrieving users: Table 'users_db.users' doesn't exist
+Error occurred while retrieving users: Table 'users_db.users' doesn't exist
+Error occurred while retrieving users: Table 'users_db.users' doesn't exist
+Error occurred while retrieving users: Table 'users_db.users' doesn't exist
+Error occurred while adding a user: Table 'users_db.users' doesn't exist
+Error occurred while adding a user: Table 'users_db.users' doesn't exist
+Database initialized and table created.
+User retrieved: null
+User added: com.example.UserDemo.model.User@4c1b8d77
+All users retrieved.
+User retrieved: com.example.UserDemo.model.User@48c0774a
+Database initialized and table created.
+User retrieved: sarah
